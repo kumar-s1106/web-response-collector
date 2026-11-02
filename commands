@@ -1,0 +1,9 @@
+# open Python file
+nano head_checker.py
+
+# run code
+python3 head_checker.py
+
+# opn JSON file
+ls capture_*.json
+  

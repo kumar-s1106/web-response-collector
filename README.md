@@ -2,7 +2,7 @@
 Python learning project that records HTTP response headers, status, requested and final URLs, and UTC collection timestamps in JSON.
 
 # Purpose
-This project explores how web response information can support preliminary investigation and documentation. It began as a header checker and was expanded to preserve observations rather than only display them.
+This project explores how web response information can support preliminary digital investigation and documentation. It began as a header checker and was expanded to preserve observations rather than only display them. This is essential because website content and configurations can change. A saved record can support preliminary digital forensic evidence by documenting a redirect destination, identifying changes between captures and providing information for further investigation. However, this alone cannot establish whether a website is malicious or provide a complete forensic acquisition.
 
 ## Features
 - Accepts a website URL through manual input.
@@ -31,7 +31,7 @@ This project explores how web response information can support preliminary inves
 - Does not determine whether a website is safe or malicious.
 - Network failures and HTTP errors may currently stop the program.
 - Timestamps depend on the accuracy of the computer's clock.
-- This is a learning prototype, not a complete forensic acquisition tool.
+- This is a prototype.
 
 ## Responsible Use
 
